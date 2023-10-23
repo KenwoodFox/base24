@@ -41,6 +41,7 @@ def drawGon(value, size=200):
         lastCord = cord
 
     # Now we can draw the specific cords
+    draw.polygon([pa, pb, pc], fill="black")
 
     return img
 
